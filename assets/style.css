@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(89, 32, 32);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    font: size 1.5em;
+
+}
+main {
+    width: 90%;
+    background: rgb(236, 250, 133);
+    color: rgb(46, 247, 240);
+    padding: 30px;
+}
+aside {
+    width: 20%;
+    background: lightgreen;
+    color: bisque;
+    padding: 10px;
+
+}
+
+.results{
+    background: lightcyan;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: lightslategray;
+}
